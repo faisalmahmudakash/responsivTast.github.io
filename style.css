@@ -175,7 +175,7 @@ ul .signUp img {
     line-height: 27px;
 }
 
-.section3 p{
+.section3 p {
     color: #9A9EA7;
     font-family: Inter;
     font-size: 14px;
@@ -184,7 +184,8 @@ ul .signUp img {
     line-height: 21px;
     letter-spacing: -0.1px;
 }
-.section3 .Button1{
+
+.section3 .Button1 {
     background-color: #f5f6f7;
     color: #9a9ea7 !important;
     border-radius: 8px !important;
@@ -196,8 +197,9 @@ ul .signUp img {
     text-align: center;
     letter-spacing: -0.1px;
 }
-.section3 .Button2{
-    background: linear-gradient(0deg, rgba(255,245,205,0.05),rgba(255, 255, 255, 0.94));
+
+.section3 .Button2 {
+    background: linear-gradient(0deg, rgba(255, 245, 205, 0.05), rgba(255, 255, 255, 0.94));
     color: #7963f0 !important;
     border-radius: 8px !important;
     font-weight: 500;
@@ -209,7 +211,68 @@ ul .signUp img {
     letter-spacing: -0.1px;
 }
 
+.section3 .card {
+    border: none;
+}
+
+/*image zoom*/
+.section3 .card {
+    overflow: hidden;
+}
+
+.section3 img {
+    transition: all ease 1s;
+}
+
+.section3 img:hover {
+    scale: 1.2;
+}
+
 /*Section 3----------------END*/
+
+/*Section 4-------------------*/
+.section4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section4 header {
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section4 .findCar {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+}
+
+.section4 p {
+    color: #9A9EA7;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.section4 p img{
+    margin-left: 5px;
+}
+.section4 img:hover {
+    scale: 1.2;
+}
+
+/*Section 4----------------END*/
 
 @media all and (max-width:767px) {
 
